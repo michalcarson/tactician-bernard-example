@@ -1,0 +1,19 @@
+{
+  "name": "michalcarson/tactician-bernard-example",
+  "description": "Demo set up for Tactician command bus and Bernard queue management.",
+  "authors": [
+    {
+      "name": "Michal Carson",
+      "email": "michal.carson@carsonsoftwareengineering.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^5.5",
+    "aws/aws-sdk-php" : "~2.4",
+    "league/tactician": "^1.0",
+    "bernard/bernard": "^1.0@dev",
+    "league/tactician-bernard": "^0.6.0",
+    "vlucas/phpdotenv": "^2.4"
+  }
+}
